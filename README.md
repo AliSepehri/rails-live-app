@@ -25,3 +25,5 @@
 1. Use Continuous Integration, at least to run your tests.
 
 1. Use error monitoring systems (like [errbit](https://github.com/errbit/errbit)).
+
+1. If you care about timezone, do not use `Date` or `Time` data types instead of `DateTime` for your database columns.
